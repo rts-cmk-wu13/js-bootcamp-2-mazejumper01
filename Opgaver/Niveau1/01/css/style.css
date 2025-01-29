@@ -43,10 +43,15 @@ label {
 
 #my-button {
 	padding: 8px;
-	background-color: #eee;
+	background-color: blue;
 	border: 1px solid #aaa;
 	border-radius: 5px;
 }
+
+#my-button.active{
+	background-color: rgb(255, 0, 0);
+	color: #eee;
+   }
 
 #my-button:focus {
 	outline: none;
