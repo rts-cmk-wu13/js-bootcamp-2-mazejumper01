@@ -1,8 +1,8 @@
 
 
   function skjulElementViaCssSelector(cssSelector) {
-    element = document.querySelector(cssSelector);
-    element.style.display = "none";
+   let element = document.querySelector(cssSelector);
+   if (element) element.style.display = "none";
 }
 
-skjulElementViaCssSelector("");
+skjulElementViaCssSelector(".store");

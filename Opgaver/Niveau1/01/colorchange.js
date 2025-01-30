@@ -1,5 +1,15 @@
-var toggleBTN = document.getElementById("my-button")
+const toggleBTN = document.getElementById("my-button")
 
-toggleBTN.addEventListener("click",() => {
-  toggleBTN.classList.toggle("active");
-});
+let isSelected = false;
+
+toggleBTN.addEventListener("click", function() {
+  isSelected = !isSelected
+
+  console.log(isSelected)
+})
+
+
+
+// toggleBTN.addEventListener("click",function() {
+//   toggleBTN.classList.toggle("active");
+// });
